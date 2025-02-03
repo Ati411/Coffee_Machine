@@ -15,3 +15,4 @@ D:\Code\C#\Coffee_Machine\Coffee_Machine\obj\Debug\net8.0-windows\Coffee_Machine
 D:\Code\C#\Coffee_Machine\Coffee_Machine\obj\Debug\net8.0-windows\Coffee_Machine.genruntimeconfig.cache
 D:\Code\C#\Coffee_Machine\Coffee_Machine\obj\Debug\net8.0-windows\ref\Coffee_Machine.dll
 D:\Code\C#\Coffee_Machine\Coffee_Machine\obj\Debug\net8.0-windows\Coffee_Machine.Properties.Resources.resources
+D:\Code\C#\Coffee_Machine\Coffee_Machine\obj\Debug\net8.0-windows\Coffee_Machine.sourcelink.json

@@ -69,6 +69,10 @@
             label12 = new Label();
             label13 = new Label();
             groupBox1 = new GroupBox();
+            label21 = new Label();
+            label20 = new Label();
+            label19 = new Label();
+            label18 = new Label();
             label17 = new Label();
             label16 = new Label();
             label15 = new Label();
@@ -78,18 +82,14 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             pictureBox5 = new PictureBox();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
             pictureBox8 = new PictureBox();
             groupBox2 = new GroupBox();
-            tbMilk = new TextBox();
-            tbWater = new TextBox();
-            tbCoffeeMix = new TextBox();
             tbChocolateMix = new TextBox();
+            tbCoffeeMix = new TextBox();
+            tbWater = new TextBox();
+            tbMilk = new TextBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -453,6 +453,42 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Menu";
             // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(557, 87);
+            label21.Name = "label21";
+            label21.Size = new Size(53, 15);
+            label21.TabIndex = 41;
+            label21.Text = "Quantity";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(557, 227);
+            label20.Name = "label20";
+            label20.Size = new Size(53, 15);
+            label20.TabIndex = 23;
+            label20.Text = "Quantity";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(576, 58);
+            label19.Name = "label19";
+            label19.Size = new Size(33, 15);
+            label19.TabIndex = 22;
+            label19.Text = "Price";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(576, 198);
+            label18.Name = "label18";
+            label18.Size = new Size(33, 15);
+            label18.TabIndex = 21;
+            label18.Text = "Price";
+            // 
             // label17
             // 
             label17.AutoSize = true;
@@ -541,42 +577,6 @@
             pictureBox5.TabIndex = 40;
             pictureBox5.TabStop = false;
             // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(576, 198);
-            label18.Name = "label18";
-            label18.Size = new Size(33, 15);
-            label18.TabIndex = 21;
-            label18.Text = "Price";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(576, 58);
-            label19.Name = "label19";
-            label19.Size = new Size(33, 15);
-            label19.TabIndex = 22;
-            label19.Text = "Price";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Location = new Point(557, 227);
-            label20.Name = "label20";
-            label20.Size = new Size(53, 15);
-            label20.TabIndex = 23;
-            label20.Text = "Quantity";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(557, 87);
-            label21.Name = "label21";
-            label21.Size = new Size(53, 15);
-            label21.TabIndex = 41;
-            label21.Text = "Quantity";
-            // 
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
@@ -624,19 +624,12 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "QuantityMix";
             // 
-            // tbMilk
+            // tbChocolateMix
             // 
-            tbMilk.Location = new Point(209, 69);
-            tbMilk.Name = "tbMilk";
-            tbMilk.Size = new Size(100, 23);
-            tbMilk.TabIndex = 44;
-            // 
-            // tbWater
-            // 
-            tbWater.Location = new Point(209, 244);
-            tbWater.Name = "tbWater";
-            tbWater.Size = new Size(100, 23);
-            tbWater.TabIndex = 45;
+            tbChocolateMix.Location = new Point(566, 244);
+            tbChocolateMix.Name = "tbChocolateMix";
+            tbChocolateMix.Size = new Size(100, 23);
+            tbChocolateMix.TabIndex = 47;
             // 
             // tbCoffeeMix
             // 
@@ -645,12 +638,19 @@
             tbCoffeeMix.Size = new Size(100, 23);
             tbCoffeeMix.TabIndex = 46;
             // 
-            // tbChocolateMix
+            // tbWater
             // 
-            tbChocolateMix.Location = new Point(566, 244);
-            tbChocolateMix.Name = "tbChocolateMix";
-            tbChocolateMix.Size = new Size(100, 23);
-            tbChocolateMix.TabIndex = 47;
+            tbWater.Location = new Point(209, 244);
+            tbWater.Name = "tbWater";
+            tbWater.Size = new Size(100, 23);
+            tbWater.TabIndex = 45;
+            // 
+            // tbMilk
+            // 
+            tbMilk.Location = new Point(209, 69);
+            tbMilk.Name = "tbMilk";
+            tbMilk.Size = new Size(100, 23);
+            tbMilk.TabIndex = 44;
             // 
             // Form1
             // 
@@ -687,7 +687,7 @@
             Controls.Add(tbTotal);
             Controls.Add(button1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "VendingMachine";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
